@@ -18,7 +18,7 @@ Veritrust AI is a web application that analyzes system logs and provides meaning
 ## 📦 Installation
 
 1. Clone the repository
-   git clone https://github.com/your-username/veritrust-ai.git
+   git clone https://github.com/prasanna2012/veritrust.git
 
 2. Install dependencies
    npm install
