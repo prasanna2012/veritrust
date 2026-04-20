@@ -1,20 +1,46 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Veritrust AI 🔍
 
-# Run and deploy your AI Studio app
+Veritrust AI is a web application that analyzes system logs and provides meaningful insights using AI.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/b63996a6-7645-4c7d-957c-3523fcf12ac3
+* Paste or upload logs
+* AI-powered log analysis
+* Simple and clean UI
+* Fast response using Gemini API
 
-## Run Locally
+## 🛠 Tech Stack
 
-**Prerequisites:**  Node.js
+* React (Vite)
+* TypeScript
+* Gemini API
 
+## 📦 Installation
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Clone the repository
+   git clone https://github.com/your-username/veritrust-ai.git
+
+2. Install dependencies
+   npm install
+
+3. Create a `.env` file and add your API key
+   GEMINI_API_KEY=your_api_key_here
+
+4. Run the app
+   npm run dev
+
+## 💡 How it works
+
+* User inputs logs
+* Logs are processed and sent to the AI model
+* AI returns a structured explanation of the logs
+
+## 📌 Future Improvements
+
+* File upload support
+* Better error handling
+* Log categorization
+
+## 👤 Author
+
+Bagu Prasanna
